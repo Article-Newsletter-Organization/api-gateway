@@ -1,0 +1,5 @@
+server:
+  port: ${PORT:8080}
+auth_service:
+  uri: ${AUTH_SERVICE_URI:http://localhost:3000}
+  path: ${AUTH_SERVICE_PATH:/auth/**}
